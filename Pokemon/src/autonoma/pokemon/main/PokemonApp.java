@@ -21,9 +21,9 @@ public class PokemonApp {
     public static void main (String[] args){
         
         // creacion de ojeto Pikachu:
-        Pikachu pikachu = new Pikachu(025,"pika",6,"T1");  
+         
        
-        Pokemon pokemon = new Pikachu(1,"pika1",1,"T2"); 
+        Pokemon pokemon = new Pikachu(025,"pika",6,"T1"); 
         System.out.println(pokemon.atacarMordisco());
         System.out.println(pokemon.atacarAranazo());
         System.out.println(pokemon.atacarPlacaje());
@@ -37,7 +37,7 @@ public class PokemonApp {
         
         // creacion de ojeto Charmander:
         
-        Charmander charmander = new Charmander(140,"Salamandra de fuego",8.5,"T2");
+        
         Pokemon pokemonDos = new Charmander(140,"Salamandra de fuego",8.5,"T2");
         System.out.println(pokemonDos.atacarAranazo());
         System.out.println(pokemonDos.atacarMordisco());
@@ -50,7 +50,7 @@ public class PokemonApp {
         
         // creacion de ojeto Bulbasaur:
  
-        Bulbasaur bulbasaur = new Bulbasaur(001,"Hiedra",6.0,"T1");
+        
         Pokemon pokemonTres = new Bulbasaur(001,"Hiedra",6.0,"T1");
         System.out.println(pokemonTres.atacarAranazo());
         System.out.println(pokemonTres.atacarMordisco());
@@ -64,7 +64,7 @@ public class PokemonApp {
         
         // creacion de ojeto Squirtle:
         
-        Squirtle squirtle = new Squirtle(007,"el pokemon tortuguita",9,"T5");
+       
         Pokemon pokemonCuatro = new Squirtle(007,"el pokemon tortuguita",9,"T5");
         System.out.println(pokemonCuatro.atacarAranazo());
         System.out.println(pokemonCuatro.atacarMordisco());
@@ -75,10 +75,6 @@ public class PokemonApp {
         System.out.println(pokemonA.atacarHidrobomba());
         System.out.println(pokemonA.atacarHidropulso());
         System.out.println(pokemonA.atacarPistolaAgua());
-        
-        
-        
-        
         
        
     }
